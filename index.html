@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+
+  <!-- TODO 3 - set the visual viewport -->
+  <meta name="viewport" content="width=device-width,  initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/idb.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+
+  <title>Komisi Penyiaran Rindu</title>
+
+  <!-- TODO 6.1 - include custom Modernizr build -->
+  <script src="modernizr-custom.js"></script>
+
+  <link rel="stylesheet" href="style/temp.css">
+</head>
+
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <a class="navbar-brand" href="about.html">Tentang Saya</a>
+    </div>
+    <!-- <ul class="nav navbar-nav">
+      /* <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>-->
+  </div>
+</nav>
+
+
+<div class='container'>
+  <div class="col">
+    <h1 style="text-align:center;  color: 00ff00;">Apa Itu Komisi Penyiaran Rindu ?</h1>
+    <figure>
+        <img id="sfo" src="images/bannerwifi.jpg"
+    sizes="(max-width: 700px) 90vw, 50vw"
+    srcset="images/bannerwifi.jpg 1600w,
+      images/bannerwifi.jpg 1000w,
+      images/bannerwifi.jpg 800w,
+      images/bannerwifi.jpg 500w"
+      alt="Dodge Challenger" class="img-circle">
+
+    </figure>
+
+    <p>Merupakan Sebuah Podcast yang tersedia di
+       berbagai platform online yang mampu memberikan informasi seputar
+       hati yang sepi dan penuh dengan kabut rindu, komisi penyiaran rindu
+        juga meprioritaskan kepada kaum milenial yang sedang dibendung dengan rasa
+        kangen "ambyar istilah bagi kaum ini" agar kembali kejalan bahagia, karena pada
+        dasarnya manusia adalah makhluk sosial</p>
+
+  </div>
+
+
+  <div class="col">
+    <h1 style="text-align:center;">Apa Arti Rindu Bagi Kalian ?</h1>
+
+    <p>rindu adalah bunga dalam hidup, rindu adalah suatu manuver yang kita tak tahu cara mengatasinya, rindu bagaikan pedang bermata dua, sisi satu dia membuat mu bahagia, sisi lain dia menjadikanmu menderita
+
+    </p>
+    <!-- <a href="pages/post1.html" class="post-link">Horses in a field</a> -->
+
+    <button id="addProducts" onclick="idbApp.addProducts()">Kirim Feedback ke kami yuk !</button></br></br>
+
+  <!-- <a href="pages/post2.html" class="post-link">Volt sign</a><br/>
+
+  <a href="pages/post3.html" class="post-link">Cockatoos on the deck</a><br/>
+
+  <a href="pages/post4.html" class="post-link">An old letter</a><br/>
+
+  <a href="pages/post5.html" class="post-link">Grasshopper friend</a><br/>
+
+  <a href="pages/post6.html" class="post-link">Overlooking SFO</a><br/>
+
+  <a href="pages/post7.html" class="post-link">A bird and her snack</a><br/>
+
+  <a href="non-existent.html" class="post-link">Non-existent file</a><br/> -->
+  </div>
+
+</div>
+
+<footer class="container-fluid bg-4 text-center">
+  <p>copyright © 2018 redvelvet modified by muh fariza sandaira| Desain Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p>
+</footer>
+
+  <script>
+
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('redvelvet.js')
+        .then(function(registration) {
+          console.log('Service Worker registration successful with scope: ',
+          registration.scope);
+        })
+        .catch(function(err) {
+          console.log('Service Worker registration failed: ', err);
+        });
+    }
+
+  </script>
+</body>
+</html>
